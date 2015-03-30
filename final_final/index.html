@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head class="clearfix">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" type="text/css" href= "style.css">
+	<link href='http://fonts.googleapis.com/css?family=Orbitron:400,700,900|Montserrat:700|Quicksand:400,700|Source+Sans+Pro|Oswald|Merriweather:400,700italic' rel='stylesheet' type='text/css'>	
+</head>
+
+<body>
+	<header class="clearfix" "h-background-color">
+		<h1><strong>TV TYPE</strong></h1>
+		 <img src="logo.gif" alt="a black quill graphic" style="width: 45px; height: 45px">
+		 <nav>
+			<p href="#"><strong>About</strong></p>
+		</nav>
+	</header>
+
+	<!-- Form and main button -->
+	<div class="background clearfix flat">
+		<aside class="sidebox aside-background">
+			<fieldset class="movieForm wrapper">
+				<form role="search" action="#">
+                    <p class="labelwrapper"><label for "movieName">SEARCH FOR SHOW</label></p>
+							<input type="text" id="movieName" placeholder="enter text"/>
+							<a><input type="image" value="submit" src="searchblkcaps.gif" id="sendToBottom" class="floatright"/></a>
+				</form>		
+			</fieldset>
+		</aside>
+	</div>
+
+	<!-- Break -->
+	<section></section>
+
+	<!-- Second section: film synopsis and -->
+	<main class="backgroundtwo clearfix">
+		<div class="poster maxheight clearfix">
+			<img id="poster" src="http://www.omdbapi.com/src/poster.jpg>Poster"/>
+			<p></p>
+		</div>
+		<div class="textbox flat">
+			<h2 id="clipboardText">Text results</h2>
+			<p id="title" class='textStyle'>Title</p>
+			<p id="plot" class="plotStyle">Plot</p>
+			<button class="main-button" id="clickBtn" data-clipboard-text="Copy Me!">add to clipboard</button>
+			<a href="#0" class="cd-top">Top</a>
+	</main>
+
+	<!-- scripts to link -->
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="lorem.js"></script>
+	<script type="text/javascript" src="js/jquery.zclip.js"></script> 
+</body>
+</html>
+
+
+<!-- <a><input type="submit" value="search show" id="sendToBottom"/></a> -->
+
+
